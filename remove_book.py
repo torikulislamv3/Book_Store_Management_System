@@ -1,7 +1,7 @@
 from book_data import save_books
 
 def remove_book(books):
-    book_id = input("Enter ISBN/Book ID to remove: ")
+    book_id = input("Enter Book ID to remove: ")
     
     for book in books:
         if book['book_id'] == book_id:
